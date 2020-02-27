@@ -1,0 +1,175 @@
+body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="landscape"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="landscape"] {
+  width: 21cm;
+  height: 14.8cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+.main-row-div{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.my-img{
+  background-color: black;
+  width: 100%;
+  height: 250px;
+}
+
+.left-main-div{
+  padding-left: 0px;
+  padding-right: 0px;
+  border-right: 1px solid #8113de;
+}
+
+.my-img img {
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 35px;
+  margin-top: 28px;  
+}
+
+.my-contact, .my-education, .my-clubs, .my-sports, .my-mentoring, .my-name, .my-skills, .my-experience{
+  padding: 10px;
+}
+
+.head-p{
+  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+  font-weight: bold; 
+  color: #8113de;
+  margin-bottom: 1px;
+  font-size: 12px;
+}
+
+.contact-p{
+  color: black;
+  display:inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;  
+}
+
+.contact-icon-color, .clubs-p-sym{
+  color: #8113de;
+}
+
+.contact-icon-list{
+  margin-left: 14px;
+}
+
+.education-list, .clubs-list{
+  margin-left: 14px;
+}
+
+.education-p{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;  
+}
+
+.education-p-rank{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  color: #8113de; 
+}
+
+.education-list-1{
+  margin-top: 5px;
+}
+
+.clubs-p-sym{
+  display:inline-block;
+  margin-bottom: 1px;
+}
+
+.clubs-p{
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  display:inline-block; 
+}
+
+.hr-left{
+  color: #8113de;
+}
+
+.my-name-p{
+  color: #8113de;
+  font-size: 25px;
+  font-weight: normal; 
+  margin-left: 25px; 
+}
+
+.name-p-int{
+  font-size: 13px;
+  margin-bottom: 1px;
+}
+
+.name-class-1{
+  padding-right: 0px;
+}
+
+.name-class-2{
+  padding-left: 0px;
+}
+
+.contact-p-head{
+  color: black;
+  display:inline-block;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 1px;   
+}
+
+.head-hr-design{
+  margin-top: 0px;
+  margin-top: 0px;
+  border-top: 1px solid #8113de;
+}
+
+.experience-p-head{
+  color: black;
+  display:inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 1px; 
+}
+
